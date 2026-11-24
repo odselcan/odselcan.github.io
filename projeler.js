@@ -18,7 +18,7 @@ const DEFAULTS=[
    type:"Oyunlar",
    tags:["Unity","3D","Arcade Idle"],
    emoji:"🌻",
-   gallery:["blooming.png"],
+   gallery:["çiçekleme.png"],
    color:"--butter",
    link:"https://github.com/odselcan"
  },
