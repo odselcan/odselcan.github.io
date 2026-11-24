@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfolyo · Oyunlar ve Projeler</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav><b>☁️ Adın</b><div><a href="#projeler">Projeler</a><a href="#hakkimda">Hakkımda</a><a href="#iletisim">İletişim</a></div></nav>
+
+<header class="hero">
+  <div>
+    <h1>Merhaba, ben Adın! Oyunlar ve minik dijital oyuncaklar yapıyorum.</h1>
+    <p>Renkli dünyalar, tatlı karakterler ve oynaması keyifli fikirler tasarlıyorum.</p>
+    <div class="btns"><a class="btn" href="#projeler">Projelere bak</a><a class="btn pink" href="#iletisim">Merhaba de</a></div>
+  </div>
+  <div class="stage" id="stage">
+    <div class="ball b1"></div><div class="ball b2"></div><div class="ball b3"></div><div class="ball b4"></div>
+    <div class="walker" id="walker"><div class="hopper" id="hopper">
+    <img class="witch" id="witchimg" src="cadi.png" alt="Yürüyen küçük cadı kedi">
+    </div></div>
+    <span class="hint">Cadıya tıkla, zıplasın!</span>
+  </div>
+</header>
+
+<section id="projeler">
+  <h2>Projelerim</h2>
+  <p class="sub">Bir kartın üzerine gel, havada süzülsün.</p>
+  <div class="chips" id="chips" role="group" aria-label="Proje türü"></div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section id="hakkimda">
+  <div class="about">
+    <div class="avatar">🐱</div>
+    <div>
+      <h2>Hakkımda</h2>
+      <p>Küçük yaştan beri oyun yapmayı seviyorum. Fikirleri hızlıca prototiplemeyi, sonra da üzerine pastel renkler ve biraz sevimlilik eklemeyi çok seviyorum.</p>
+      <div class="skills"><b>Unity</b><b>Blender</b><b>C#</b><b>Godot</b><b>Figma</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="iletisim">
+  <div class="contact">
+    <h2>Birlikte bir şey yapalım!</h2>
+    <p>Proje fikrin ya da sadece bir selamın varsa yaz.</p>
+    <a class="btn" href="mailto:merhaba@ornek.com">E-posta gönder</a>
+  </div>
+</section>
+<footer>Sevgiyle yapıldı · 2026 <button class="lockbtn" id="lock" aria-label="Yönetici girişi">🔒</button></footer>
+<dialog id="adm">
+ <div id="login">
+  <h2>Yönetici girişi</h2>
+  <p class="sub">Projeleri sadece sen ekleyip silebilirsin.</p>
+  <input class="fld" id="pass" type="password" placeholder="Şifre" autocomplete="current-password">
+  <p id="err" role="alert"></p>
+  <div class="btns2"><button class="btn" id="enter">Giriş yap</button><button class="chip" data-close>Kapat</button></div>
+ </div>
+ <div id="manage" hidden>
+  <h2>Projeleri yönet</h2>
+  <input class="fld" id="f-title" placeholder="Proje adı">
+  <input class="fld" id="f-desc" placeholder="Kısa açıklama">
+  <input class="fld" id="f-type" list="tl" placeholder="Tür (Oyunlar, 3D Tasarım...)">
+  <datalist id="tl"></datalist>
+  <input class="fld" id="f-tags" placeholder="Etiketler, virgülle ayır">
+  <input class="fld" id="f-emoji" placeholder="Emoji (örn. 🎮)" maxlength="4">
+  <select class="fld" id="f-color"><option value="--sky">Mavi</option><option value="--mint">Nane yeşili</option><option value="--pink">Pembe</option><option value="--butter">Sarı</option><option value="--lilac">Lila</option><option value="--peach">Şeftali</option></select>
+  <input class="fld" id="f-link" placeholder="Proje linki (https://...)">
+  <button class="btn pink" id="add">Projeyi ekle</button>
+  <p id="msg" role="status"></p>
+  <h3>Mevcut projeler</h3>
+  <div id="list"></div>
+  <details><summary>Herkese göstermek için</summary>
+   <p class="sub">Değişiklikler sadece bu tarayıcıda görünür. Herkese göstermek için bu metni kopyala, projeler.js dosyasında DEFAULTS= işaretinden sonraki listenin yerine yapıştır ve GitHub’a kaydet.</p>
+   <textarea class="fld" id="json" rows="6" readonly></textarea>
+   <button class="chip" id="copy">Kopyala</button>
+  </details>
+  <div class="btns2"><button class="chip" id="reset">Başa döndür</button><button class="chip" data-close>Kapat</button></div>
+ </div>
+</dialog>
+</div>
+
+<script src="projeler.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
