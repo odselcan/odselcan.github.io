@@ -1,13 +1,14 @@
 // PROJELERİ BURADAN DÜZENLE
-// type: Oyunlar / Mobil / Web (istediğin türü yazabilirsin)
-// color: --sky, --mint, --pink, --butter, --lilac, --peach
 const DEFAULTS=[
  {
-   title:"Magical Plant Clinic",
-   desc:"NPC müşterilere bitki satışı yapılan, diyalog sistemli ve sıcak atmosfere sahip 2D simülasyon oyunu.",
+   title:"Sihirli Bitki Kliniği",
+   desc:"Unity ve C# ile geliştirilmiş, keyifli bir 2D fantastik oyun. Müşterilerin hasta sihirli bitkilerini iyileştirmelerine yardımcı olun.",
+   longDesc:"Unity ve C# ile geliştirilmiş, keyifli bir 2D fantastik oyun. Büyülü bir klinikte Büyülü Sera ve İksir Dükkanı'ndan malzeme toplayarak, ekipman satın alarak ve özel tedaviler hazırlayarak müşterilerin hasta sihirli bitkilerini (örneğin solmaya başlayan Moonflower'ları) iyileştirmelerine yardımcı olun.",
    type:"Oyunlar",
    tags:["Unity","2D","C#","UI Toolkit"],
    emoji:"🪴",
+   cover:"bitki-kapak.png",
+   gallery:["bitki-1.jpg","bitki-2.jpg","bitki-3.jpg"],
    color:"--mint",
    link:"https://github.com/odselcan"
  },
@@ -40,5 +41,5 @@ const DEFAULTS=[
  }
 ];
 
-// Yönetici paneli şifresi (sayfanın altındaki 🔒). Kendi şifrenle değiştir.
+// Yönetici paneli şifresi
 const ADMIN_PASS="selcan2026";
