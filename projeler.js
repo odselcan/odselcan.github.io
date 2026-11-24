@@ -18,6 +18,7 @@ const DEFAULTS=[
    type:"Oyunlar",
    tags:["Unity","3D","Arcade Idle"],
    emoji:"🌻",
+  cover:"çiçekleme-kapak.jpg",
    gallery:["çiçekleme.png"],
    color:"--butter",
    link:"https://github.com/odselcan"
