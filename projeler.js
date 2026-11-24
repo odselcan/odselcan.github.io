@@ -8,7 +8,7 @@ const DEFAULTS=[
    tags:["Unity","2D","C#","UI Toolkit"],
    emoji:"🪴",
    cover:"bitki-kapak.png",
-   gallery:["bitki-1.jpg","bitki-2.jpg","bitki-3.jpg"],
+   gallery:["bitki-1.png","bitki-2.png","bitki-3.png"],
    color:"--mint",
    link:"https://github.com/odselcan"
  },
