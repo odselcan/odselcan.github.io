@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Portfolyo · Oyunlar ve Projeler</title>
+<title>Selcan Doğan · Oyun, Mobil ve Backend Geliştirici</title>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrap">
-<nav><b>☁️ Adın</b><div><a href="#projeler">Projeler</a><a href="#hakkimda">Hakkımda</a><a href="#iletisim">İletişim</a></div></nav>
+<nav><b>☁️ Selcan Doğan</b><div><a href="#projeler">Projeler</a><a href="#hakkimda">Hakkımda</a><a href="#iletisim">İletişim</a></div></nav>
 
 <header class="hero">
   <div>
-    <h1>Merhaba, ben Adın! Oyunlar ve minik dijital oyuncaklar yapıyorum.</h1>
-    <p>Renkli dünyalar, tatlı karakterler ve oynaması keyifli fikirler tasarlıyorum.</p>
-    <div class="btns"><a class="btn" href="#projeler">Projelere bak</a><a class="btn pink" href="#iletisim">Merhaba de</a></div>
+    <h1>Merhaba, ben Selcan! Oyunlar, mobil ve web uygulamaları geliştiriyorum.</h1>
+    <p>Unity ile keyifli oyun dünyaları tasarlıyor, ASP.NET Core ve React Native ile modern yazılımlar geliştiriyorum.</p>
+    <div class="btns"><a class="btn" href="#projeler">Projelere bak</a><a class="btn pink" href="https://github.com/odselcan" target="_blank">GitHub Profilim</a></div>
   </div>
   <div class="stage" id="stage">
     <div class="ball b1"></div><div class="ball b2"></div><div class="ball b3"></div><div class="ball b4"></div>
@@ -38,8 +38,16 @@
     <div class="avatar">🐱</div>
     <div>
       <h2>Hakkımda</h2>
-      <p>Küçük yaştan beri oyun yapmayı seviyorum. Fikirleri hızlıca prototiplemeyi, sonra da üzerine pastel renkler ve biraz sevimlilik eklemeyi çok seviyorum.</p>
-      <div class="skills"><b>Unity</b><b>Blender</b><b>C#</b><b>Godot</b><b>Figma</b></div>
+      <p>Yazılım Mühendisliği mezunuyum. Oyun geliştirme, çapraz platform mobil uygulamalar ve backend sistemleri üzerine çalışıyorum. Fikirleri sıfırdan çalışan projelere dönüştürmeyi, oyunlara ise sıcak ve sevimli bir görsel atmosfer katmayı çok seviyorum.</p>
+      <div class="skills">
+        <b>Unity</b>
+        <b>C#</b>
+        <b>ASP.NET Core MVC</b>
+        <b>React Native</b>
+        <b>PostgreSQL</b>
+        <b>TypeScript</b>
+        <b>Git</b>
+      </div>
     </div>
   </div>
 </section>
@@ -47,8 +55,11 @@
 <section id="iletisim">
   <div class="contact">
     <h2>Birlikte bir şey yapalım!</h2>
-    <p>Proje fikrin ya da sadece bir selamın varsa yaz.</p>
-    <a class="btn" href="mailto:merhaba@ornek.com">E-posta gönder</a>
+    <p>İş fırsatları, proje fikirleri veya sadece tanışmak için bana ulaşabilirsin.</p>
+    <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+      <a class="btn" href="mailto:e-posta-adresin@ornek.com">E-posta gönder</a>
+      <a class="btn pink" href="https://github.com/odselcan" target="_blank">GitHub (@odselcan)</a>
+    </div>
   </div>
 </section>
 <footer>Sevgiyle yapıldı · 2026 <button class="lockbtn" id="lock" aria-label="Yönetici girişi">🔒</button></footer>
@@ -64,7 +75,7 @@
   <h2>Projeleri yönet</h2>
   <input class="fld" id="f-title" placeholder="Proje adı">
   <input class="fld" id="f-desc" placeholder="Kısa açıklama">
-  <input class="fld" id="f-type" list="tl" placeholder="Tür (Oyunlar, 3D Tasarım...)">
+  <input class="fld" id="f-type" list="tl" placeholder="Tür (Oyunlar, Mobil, Web...)">
   <datalist id="tl"></datalist>
   <input class="fld" id="f-tags" placeholder="Etiketler, virgülle ayır">
   <input class="fld" id="f-emoji" placeholder="Emoji (örn. 🎮)" maxlength="4">
