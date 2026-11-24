@@ -13,7 +13,7 @@ const DEFAULTS=[
    link:"https://github.com/odselcan"
  },
  {
-   title:"Flower Harvest Arcade",
+   title:"Blooming-Days",
    desc:"Çiçek tarlalarından hasat toplayıp sırtta taşıyarak pazar tezgahlarında sattığımız 3D Arcade Idle oyunu.",
    type:"Oyunlar",
    tags:["Unity","3D","Arcade Idle"],
