@@ -14,10 +14,11 @@ const DEFAULTS=[
  },
  {
    title:"Blooming-Days",
-   desc:"Çiçek tarlalarından hasat toplayıp sırtta taşıyarak pazar tezgahlarında sattığımız 3D Arcade Idle oyunu.",
+   desc:"Hala geliştirmekte olduğumuz çiçek tarlalarından hasat toplayıp sırtta taşıyarak pazar tezgahlarında sattığımız 3D Arcade Idle oyunu.",
    type:"Oyunlar",
    tags:["Unity","3D","Arcade Idle"],
    emoji:"🌻",
+   gallery:["blooming.png"],
    color:"--butter",
    link:"https://github.com/odselcan"
  },
