@@ -28,7 +28,7 @@
 
 <section id="projeler">
   <h2>Projelerim</h2>
-  <p class="sub">Bir kartın üzerine gel, havada süzülsün.</p>
+  <p class="sub">Bir kartın üzerine gel, havada süzülsün. Detaylar ve oyun içi görüntüler için İncele'ye tıkla.</p>
   <div class="chips" id="chips" role="group" aria-label="Proje türü"></div>
   <div class="grid" id="grid"></div>
 </section>
@@ -57,12 +57,26 @@
     <h2>Birlikte bir şey yapalım!</h2>
     <p>İş fırsatları, proje fikirleri veya sadece tanışmak için bana ulaşabilirsin.</p>
     <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
-      <a class="btn" href="mailto:e-posta-adresin@ornek.com">E-posta gönder</a>
+      <a class="btn" href="mailto:odselcan@gmail.com">E-posta gönder</a>
       <a class="btn pink" href="https://github.com/odselcan" target="_blank">GitHub (@odselcan)</a>
     </div>
   </div>
 </section>
 <footer>Sevgiyle yapıldı · 2026 <button class="lockbtn" id="lock" aria-label="Yönetici girişi">🔒</button></footer>
+
+<!-- Proje İnceleme Penceresi -->
+<dialog id="proj-modal" class="proj-modal">
+  <div class="modal-head">
+    <h2 id="pm-title"></h2>
+    <button class="chip" id="pm-close">Kapat</button>
+  </div>
+  <div class="tags" id="pm-tags" style="margin:10px 0 14px"></div>
+  <p id="pm-desc" style="font-size:1.05rem; margin-bottom:18px"></p>
+  <div class="gallery" id="pm-gallery"></div>
+  <div class="btns2" id="pm-actions"></div>
+</dialog>
+
+<!-- Yönetici Paneli -->
 <dialog id="adm">
  <div id="login">
   <h2>Yönetici girişi</h2>
