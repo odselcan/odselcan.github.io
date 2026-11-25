@@ -30,7 +30,7 @@ const DEFAULTS=[
    tags:["ASP.NET Core","PostgreSQL","SignalR"],
    emoji:"🎓",
    cover:"resim-1.png",
-   gallery:["resim-2.png , resim-3.png, resim-4.png, resim-5.png"],
+   gallery:["resim-2.png , resim-3.png , resim-4.png , resim-5.png"],
    color:"--sky",
    link:"https://github.com/odselcan/Alumni-Portal"
  },
