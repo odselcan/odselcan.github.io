@@ -10,7 +10,7 @@ const DEFAULTS=[
    cover:"bitki-kapak.png",
    gallery:["bitki-1.png","bitki-2.png","bitki-3.png"],
    color:"--mint",
-   link:"https://github.com/odselcan"
+   link:"https://github.com/odselcan/Magical-Plant-Clinic"
  },
  {
    title:"Blooming-Days",
@@ -30,7 +30,7 @@ const DEFAULTS=[
    tags:["ASP.NET Core","PostgreSQL","SignalR"],
    emoji:"🎓",
    color:"--sky",
-   link:"https://github.com/odselcan"
+   link:"https://github.com/odselcan/Alumni-Portal"
  },
  {
    title:"Cinema Automation Mobile",
@@ -39,7 +39,7 @@ const DEFAULTS=[
    tags:["React Native","Expo","TypeScript"],
    emoji:"🎬",
    color:"--pink",
-   link:"https://github.com/odselcan"
+   link:"https://github.com/odselcan/movie-otomation-mobile-project"
  }
 ];
 
